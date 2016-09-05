@@ -1,0 +1,54 @@
+{
+  "name": "react-native-svg-chart",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./src/BarChart.js",
+  "license": "MIT",
+  "directories": {},
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "lint": "eslint src",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/sumoners/react-native-svg-chart"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "react-component",
+    "ios",
+    "android",
+    "native",
+    "svg",
+    "chart",
+    "graph"
+  ],
+  "maintainers": [
+    {
+      "email": "victor.feijoa@gmail.com",
+      "name": "victorfeijo"
+    },
+    {
+      "email": "joaopaulo.lethier@sumone.com.br",
+      "name": "jplethier"
+    }
+  ],
+  "dependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-eslint": "^6.0.0",
+    "babel-plugin-transform-flow-strip-types": "^6.8.0",
+    "babel-preset-react-native": "^1.5.3",
+    "lodash": "^4.13.1",
+    "react-native-svg": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-plugin-import": "^1.6.0",
+    "eslint-plugin-jsx-a11y": "^1.0.3",
+    "eslint-plugin-react": "^5.0.1",
+    "eslint-plugin-react-native": "^1.0.0"
+  }
+}
